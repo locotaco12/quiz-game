@@ -31,12 +31,6 @@ The two are combined into one weighted_score used purely for ranking. The leader
 
 Project structure
 
-quiz_game/
-├── quiz.py            # Game logic
-├── questions.json     # Question bank
-├── leaderboard.json   # Saved scores (created automatically, not tracked in git)
-└── .gitignore
-
 Adding your own questions
 
 Open questions.json and add new entries following this format:
@@ -51,3 +45,5 @@ json{
 About
 
 Built as a learning project to practice file I/O, JSON handling, functions, input validation, sorting with custom keys, and basic data persistence in Python.
+
+*Claude was used to help with README description
